@@ -1,0 +1,35 @@
+@"
+# Node/Next.js
+node_modules/
+.next/
+.turbo/
+.vercel/
+.next/cache/
+*.log
+
+# Env
+.env
+.env.*
+.env.local
+
+# TypeScript
+next-env.d.ts
+
+# Python
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Misc
+*.zip
+"@ | Out-File -Encoding utf8 .gitignore

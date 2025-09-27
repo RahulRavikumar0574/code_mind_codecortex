@@ -1,0 +1,10 @@
+{
+  "name": "codemind-parser",
+  "version": "1.0.0",
+  "description": "Parsers for CodeMind backend",
+  "main": "run_parser.js",
+  "dependencies": {
+    "@babel/parser": "^7.24.7",
+    "@babel/traverse": "^7.24.7"
+  }
+}

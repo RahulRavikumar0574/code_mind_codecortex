@@ -1,0 +1,28 @@
+{
+  "name": "codecortex2-backend",
+  "version": "1.0.0",
+  "description": "Backend for CodeCortex2 MVP - code analysis, linting, AI explanations, snippet integration, call-flow graphs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.28.4",
+    "@babel/traverse": "^7.28.4",
+    "adm-zip": "^0.5.12",
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0",
+    "globals": "^16.4.0",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.6.2"
+  }
+}
